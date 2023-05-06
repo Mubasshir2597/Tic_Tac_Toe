@@ -1,4 +1,4 @@
-This function is responsible for printing the current state of the board. It takes the parameter board, which is a list representing the Tic Tac Toe board.
+ConstBoard function is responsible for printing the current state of the board. It takes the parameter board, which is a list representing the Tic Tac Toe board.
 The function loops through the indices of the board list from 0 to 8. If the index is not zero and is divisible by 3, it prints a new line to start a new row.
 For each index, it checks the corresponding value in the board list. If the value is 0, it prints an underscore "_". If the value is 1, it prints an uppercase letter "O". If the value is -1, it prints a lowercase letter "x".
 Finally, it prints two new lines to leave some space after the board is printed.
