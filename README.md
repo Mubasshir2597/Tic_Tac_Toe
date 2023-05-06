@@ -3,7 +3,6 @@ The function loops through the indices of the board list from 0 to 8. If the ind
 For each index, it checks the corresponding value in the board list. If the value is 0, it prints an underscore "_". If the value is 1, it prints an uppercase letter "O". If the value is -1, it prints a lowercase letter "x".
 Finally, it prints two new lines to leave some space after the board is printed.
 
-
 def ConstBoard(board):
     print("Current State of the Board: \n\n")
     for i in range(0, 9):
@@ -15,7 +14,8 @@ def ConstBoard(board):
             print("O", end=" ")
         if board[i] == -1:
             print("x", end=" ")
-    print("\n\n")  
+    print("\n\n")
+
     
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------    
 These two functions are used to get the user input for the position they want to place their X or O on the tic-tac-toe board. The input is taken from the user through the console and then converted to an integer type. The input value represents the index of the position on the board where the player wants to place their move.
